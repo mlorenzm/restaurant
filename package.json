@@ -1,0 +1,25 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "Website for a fictitious restaurant for The Odin Project's curriculum ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlorenzm/restaurant.git"
+  },
+  "author": "Mauro Lorenzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlorenzm/restaurant/issues"
+  },
+  "homepage": "https://github.com/mlorenzm/restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  }
+}
