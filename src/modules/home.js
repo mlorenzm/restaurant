@@ -82,7 +82,7 @@ const createPage = () => {
     'Experience the aroma and taste of freshly roasted coffee beans at <span class="font-noto text-yellow-500">Sip & Savor</span>. Our expertly crafted coffee blends are made from the finest beans, sourced from the best coffee-growing regions around the world.';
   const paragraphTwo = document.createElement("p");
   paragraphTwo.textContent =
-    "From our bold and rich espresso to our smooth and creamy latte, we have a coffee that will satisfy every palate. Come and enjoy our warm and welcoming atmosphere, and let us help you start your day right with a delicious cup of coffee. and start your day right with a delicious cup of coffee.";
+    "Whether you're in the mood for a piping hot cup of our signature coffee, or a deliciously fresh bagel topped with your favorite spread, we've got you covered. Our expert baristas and bakers work tirelessly to craft the perfect cup and bagel for every customer, every time.";
   textContainer.append(paragraphOne, paragraphTwo);
   container.append(textContainer);
   return container;

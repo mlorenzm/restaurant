@@ -48,9 +48,9 @@ const createNav = (content) => {
 
 const createFooter = (content) => {
   const footer = document.createElement("footer");
-  footer.classList.add("text-white", "self-center");
+  footer.classList.add("text-white", "self-center", "mt-2");
   footer.innerHTML =
-    'Developed with ❤️ by         <a href="http://github.com/mlorenzm" target="_blank" rel="noreferrer noopener" class="text-yellow-500 font-bold ">Mauro Lorenzo</a>';
+    'Developed with ❤️ by <a href="http://github.com/mlorenzm" target="_blank" rel="noreferrer noopener" class="text-yellow-500 font-bold ">Mauro Lorenzo</a>';
   return content.append(footer);
 };
 const deleteChild = (content) => {
