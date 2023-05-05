@@ -51,10 +51,23 @@ const createLogo = () => {
 // The page itself
 const createPage = () => {
   const container = document.createElement("div");
-  container.classList.add("flex", "gap-8");
+  container.classList.add(
+    "flex",
+    "flex-col",
+    "gap-4",
+    "md:flex-row",
+    "md:gap-6"
+  );
   const img = document.createElement("img");
   img.src = "../assets/coffee_beans.jpg";
-  img.classList.add("rounded-lg", "shadow-xl", "aspect-square", "w-1/3");
+  img.classList.add(
+    "rounded-lg",
+    "shadow-xl",
+    "h-96",
+    "aspect-square",
+    "flex-none",
+    "grow-0"
+  );
   const textContainer = document.createElement("div");
   textContainer.classList.add(
     "text-xl",
