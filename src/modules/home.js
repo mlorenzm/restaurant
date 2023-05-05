@@ -1,4 +1,3 @@
-import { createNav, createFooter } from "./ui";
 const createMain = () => {
   // Main page container
   let main = document.createElement("div");
@@ -11,7 +10,7 @@ const createMain = () => {
     "flex-grow",
     "justify-around"
   );
-  return content.appendChild(main);
+  return main;
 };
 // Logo section
 const createLogo = () => {
@@ -90,10 +89,10 @@ const createPage = () => {
 
 const createHome = (content) => {
   const main = createMain();
-  main.appendChild(createNav());
+
   main.appendChild(createLogo());
   main.appendChild(createPage());
-  main.appendChild(createFooter());
+
   return content.appendChild(main);
 };
-export { createHome, createLogo, createPage, createFooter };
+export { createHome };

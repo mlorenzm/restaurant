@@ -1,4 +1,4 @@
-const createNav = () => {
+const createNav = (content) => {
   const nav = document.createElement("nav");
   nav.classList.add(
     "grid",
@@ -42,15 +42,15 @@ const createNav = () => {
   ul.append(home, menu, contact);
   nav.append(ul);
 
-  return nav;
+  return content.append(nav);
 };
 
-const createFooter = () => {
+const createFooter = (content) => {
   const footer = document.createElement("footer");
   footer.classList.add("text-white", "self-center");
   footer.innerHTML =
     'Developed with ❤️ by         <a href="http://github.com/mlorenzm" target="_blank" rel="noreferrer noopener" class="text-yellow-500 font-bold ">Mauro Lorenzo</a>';
-  return footer;
+  return content.append(footer);
 };
 
 export { createNav, createFooter };
