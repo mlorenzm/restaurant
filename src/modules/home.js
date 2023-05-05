@@ -1,3 +1,4 @@
+import { deleteChild } from "./ui";
 const createMain = () => {
   // Main page container
   let main = document.createElement("div");
@@ -89,9 +90,7 @@ const createPage = () => {
 
 const createHome = (content) => {
   const main = createMain();
-  if (content.childNodes.length > 2) {
-    content.removeChild(content.childNodes[1]);
-  }
+  deleteChild(content);
   main.appendChild(createLogo());
   main.appendChild(createPage());
 

@@ -53,5 +53,9 @@ const createFooter = (content) => {
     'Developed with ❤️ by         <a href="http://github.com/mlorenzm" target="_blank" rel="noreferrer noopener" class="text-yellow-500 font-bold ">Mauro Lorenzo</a>';
   return content.append(footer);
 };
-
-export { createNav, createFooter };
+const deleteChild = (content) => {
+  if (content.childNodes.length > 2) {
+    content.removeChild(content.childNodes[1]);
+  }
+};
+export { createNav, createFooter, deleteChild };
