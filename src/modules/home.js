@@ -89,10 +89,12 @@ const createPage = () => {
 
 const createHome = (content) => {
   const main = createMain();
-
+  if (content.childNodes.length > 2) {
+    content.removeChild(content.childNodes[1]);
+  }
   main.appendChild(createLogo());
   main.appendChild(createPage());
 
-  return content.appendChild(main);
+  return content.insertBefore(main, content.lastChild);
 };
-export { createHome };
+export { createHome, createLogo };

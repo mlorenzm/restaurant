@@ -18,6 +18,7 @@ const createNav = (content) => {
     "hover:bottom-1"
   );
   home.textContent = "HOME";
+
   const menu = document.createElement("li");
   menu.classList.add(
     "text-xl",
@@ -42,7 +43,7 @@ const createNav = (content) => {
   ul.append(home, menu, contact);
   nav.append(ul);
 
-  return content.append(nav);
+  return nav;
 };
 
 const createFooter = (content) => {
