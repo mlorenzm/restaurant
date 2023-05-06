@@ -6,20 +6,20 @@ const menuItems = [
     description:
       "Start your day off strong with our bold and flavorful black coffee, made from the finest beans and brewed to perfection.",
     allergens: ["High Caffeine"],
-    imgpath: "../../assets/salmon_bagel.jpeg",
+    imgpath: "../../assets/black_coffee.jpg",
   },
   {
     name: "Frothy Fix",
     description:
       "Indulge in our creamy and frothy cappuccino, crafted with the perfect balance of rich espresso and velvety milk.",
     allergens: ["Lactose"],
-    imgpath: "../../assets/salmon_bagel.jpeg",
+    imgpath: "../../assets/latte.jpg",
   },
   {
     name: "Plain Perfection",
     description:
       "Our classic bagel is the perfect canvas for your favorite toppings, with a soft and chewy texture that will keep you coming back for more.",
-    imgpath: "../../assets/salmon_bagel.jpeg",
+    imgpath: "../../assets/bagels.jpg",
     allergens: ["Gluten"],
   },
   {
@@ -43,7 +43,7 @@ const createMenuCard = (object) => {
   const img = document.createElement("img");
   console.log(object.imgpath);
   img.src = object.imgpath;
-  img.classList.add("w-full");
+  img.classList.add("w-full", "h-64", "object-cover");
   card.append(img);
   const description = document.createElement("div");
   description.classList.add("px-6", "py-4");
