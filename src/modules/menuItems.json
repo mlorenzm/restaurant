@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Bold Brew",
+    "description": "Start your day off strong with our bold and flavorful black coffee, made from the finest beans and brewed to perfection.",
+    "allergens": "High Caffeine"
+  },
+  {
+    "name": "Frothy Fix",
+    "description": "Indulge in our creamy and frothy cappuccino, crafted with the perfect balance of rich espresso and velvety milk.",
+    "allergens": "Lactose"
+  },
+  {
+    "name": "Plain Perfection",
+    "description": "Our classic bagel is the perfect canvas for your favorite toppings, with a soft and chewy texture that will keep you coming back for more.",
+    "allergens": ["Gluten"]
+  },
+  {
+    "name": "Savory Sensation",
+    "description": "Our savory salmon and cream cheese bagel is a delicious twist on a classic favorite, featuring smoked salmon, creamy cheese, and fresh bagel baked in-house daily.",
+
+    "allergens": ["Lactose", "Fish", "Gluten"]
+  }
+]
