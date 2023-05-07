@@ -41,7 +41,7 @@ const createMenuCard = (object) => {
     "bg-gray-50"
   );
   const img = document.createElement("img");
-  console.log(object.imgpath);
+
   img.src = object.imgpath;
   img.classList.add("w-full", "h-64", "object-cover");
   card.append(img);
@@ -87,7 +87,6 @@ const createMenuCard = (object) => {
 const createMenu = () => {
   deleteChild(content);
   const main = createMain();
-  main.classList.add();
   main.insertBefore(createLogo(), main.lastChild);
   const cardContainer = document.createElement("div");
   cardContainer.classList.add("grid", "gap-2", "md:grid-cols-2");
