@@ -50,7 +50,6 @@ const contactUs = () => {
 
 const createContact = (content) => {
   deleteChild(content);
-  console.log(content);
   const main = createMain();
   main.classList.add("h-screen");
   main.append(createLogo());

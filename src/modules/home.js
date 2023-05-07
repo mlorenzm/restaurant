@@ -1,4 +1,5 @@
 import { deleteChild } from "./ui";
+import coffeeBeans from "../assets/coffee_beans.jpg";
 const createMain = () => {
   // Main page container
   let main = document.createElement("div");
@@ -59,7 +60,7 @@ const createPage = () => {
     "md:gap-6"
   );
   const img = document.createElement("img");
-  img.src = "../../dist/assets/coffee_beans.jpg";
+  img.src = coffeeBeans;
   img.classList.add(
     "rounded-lg",
     "shadow-xl",

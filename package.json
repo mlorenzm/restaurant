@@ -1,7 +1,6 @@
 {
   "name": "restaurant",
   "version": "1.0.0",
-  "homepage": "https://mlorenzm.github.io/restaurant/",
   "description": "Website for a fictitious restaurant for The Odin Project's curriculum ",
   "main": "index.js",
   "scripts": {
@@ -20,7 +19,9 @@
   },
   "homepage": "https://github.com/mlorenzm/restaurant#readme",
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "tailwindcss": "^3.3.2",
+    "url-loader": "^4.1.1",
     "webpack": "^5.81.0",
     "webpack-cli": "^5.0.2"
   }

@@ -1,32 +1,37 @@
 import { createLogo, createMain } from "./home";
 import { deleteChild } from "./ui";
+import blackCoffee from "../assets/black_coffee.jpg";
+import latte from "../assets/latte.jpg";
+import salmonBagel from "../assets/salmon_bagel.jpg";
+import bagel from "../assets/bagels.jpg";
+
 const menuItems = [
   {
     name: "Bold Brew",
     description:
       "Start your day off strong with our bold and flavorful black coffee, made from the finest beans and brewed to perfection.",
     allergens: ["High Caffeine"],
-    imgpath: "../../dist/assets/black_coffee.jpg",
+    imgpath: blackCoffee,
   },
   {
     name: "Frothy Fix",
     description:
       "Indulge in our creamy and frothy cappuccino, crafted with the perfect balance of rich espresso and velvety milk.",
     allergens: ["Lactose"],
-    imgpath: "../../dist/assets/latte.jpg",
+    imgpath: latte,
   },
   {
     name: "Plain Perfection",
     description:
       "Our classic bagel is the perfect canvas for your favorite toppings, with a soft and chewy texture that will keep you coming back for more.",
-    imgpath: "../../dist/assets/bagels.jpg",
+    imgpath: bagel,
     allergens: ["Gluten"],
   },
   {
     name: "Savory Sensation",
     description:
       "Our savory salmon and cream cheese bagel is a delicious twist on a classic favorite, featuring smoked salmon, creamy cheese, and fresh bagel baked in-house daily.",
-    imgpath: "../../dist/assets/salmon_bagel.jpeg",
+    imgpath: salmonBagel,
     allergens: ["Lactose", "Fish", "Gluten"],
   },
 ];
