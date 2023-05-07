@@ -560,6 +560,14 @@ video {
   }
 }
 
+.relative{
+  position: relative;
+}
+
+.bottom-1{
+  bottom: 0.25rem;
+}
+
 .mx-5{
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -777,6 +785,11 @@ video {
 .bg-slate-300{
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .bg-\[radial-gradient\(circle_at_top_left\2c _var\(--tw-gradient-stops\)\)\]{
