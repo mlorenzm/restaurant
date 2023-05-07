@@ -1,6 +1,7 @@
 {
   "name": "restaurant",
   "version": "1.0.0",
+  "homepage": "https://mlorenzm.github.io/restaurant/",
   "description": "Website for a fictitious restaurant for The Odin Project's curriculum ",
   "main": "index.js",
   "scripts": {

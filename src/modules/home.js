@@ -59,7 +59,7 @@ const createPage = () => {
     "md:gap-6"
   );
   const img = document.createElement("img");
-  img.src = "../assets/coffee_beans.jpg";
+  img.src = "../../dist/assets/coffee_beans.jpg";
   img.classList.add(
     "rounded-lg",
     "shadow-xl",

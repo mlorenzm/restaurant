@@ -6,27 +6,27 @@ const menuItems = [
     description:
       "Start your day off strong with our bold and flavorful black coffee, made from the finest beans and brewed to perfection.",
     allergens: ["High Caffeine"],
-    imgpath: "../../assets/black_coffee.jpg",
+    imgpath: "../../dist/assets/black_coffee.jpg",
   },
   {
     name: "Frothy Fix",
     description:
       "Indulge in our creamy and frothy cappuccino, crafted with the perfect balance of rich espresso and velvety milk.",
     allergens: ["Lactose"],
-    imgpath: "../../assets/latte.jpg",
+    imgpath: "../../dist/assets/latte.jpg",
   },
   {
     name: "Plain Perfection",
     description:
       "Our classic bagel is the perfect canvas for your favorite toppings, with a soft and chewy texture that will keep you coming back for more.",
-    imgpath: "../../assets/bagels.jpg",
+    imgpath: "../../dist/assets/bagels.jpg",
     allergens: ["Gluten"],
   },
   {
     name: "Savory Sensation",
     description:
       "Our savory salmon and cream cheese bagel is a delicious twist on a classic favorite, featuring smoked salmon, creamy cheese, and fresh bagel baked in-house daily.",
-    imgpath: "../../assets/salmon_bagel.jpeg",
+    imgpath: "../../dist/assets/salmon_bagel.jpeg",
     allergens: ["Lactose", "Fish", "Gluten"],
   },
 ];
