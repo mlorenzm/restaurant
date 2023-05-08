@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
@@ -12,7 +12,7 @@ module.exports = {
       {
         test: /\.(jpg|png)$/,
         use: {
-          loader: "url-loader",
+          loader: "file-loader",
         },
       },
     ],

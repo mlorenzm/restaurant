@@ -91,7 +91,7 @@ const createPage = () => {
 
 const createHome = (content) => {
   const main = createMain();
-  main.classList.add("h-screen");
+  main.classList.add("flex-grow");
   deleteChild(content);
   main.appendChild(createLogo());
   main.appendChild(createPage());
