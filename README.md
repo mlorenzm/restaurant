@@ -22,7 +22,7 @@ During the development of this project, we learned the following:
 
 ## Known Limitations
 
-One limitation of this project is that it may not display properly on some devices or displays due to its responsive design. We recommend using a device with a screen resolution of at least [insert minimum resolution here] for optimal viewing.
+One limitation of this project is that it may not display properly on some devices or displays due to its responsive design. We recommend using a PC
 
 ## Getting Started
 
